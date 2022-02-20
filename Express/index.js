@@ -14,7 +14,14 @@ app.get("/blog", function(requisicao, resposta) {
 
 app.get("/canal/youtube", function(requisicao, resposta) {
 
-    resposta.send("Bem-vindo ao meu canal!");
+    var canal = requisicao.query["canal"];
+
+    if (canal) {
+        resposta.send("Bem-vindo ao meu canal! Existe um canal chamado <strong>" + canal + "</strong>");
+    } else {
+        resposta.send("Bem-vindo ao meu canal! Mas ainda não existe um canal!");
+    }
+
 });
 
 // colocar parametros
