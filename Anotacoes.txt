@@ -1,0 +1,20 @@
+npm init
+
+npm install express --save
+
+node index.js
+
+------
+
+Create the text file gitignore.txt
+Open it in a text editor and add your rules, then save and close
+Hold SHIFT, right click the folder you're in, then select Open command window here
+Then rename the file in the command line, with 
+
+ren gitignore.txt .gitignore
+
+
+Open Notepad.
+Add the contents of your gitignore file.
+Click "Save as" and select "all files".
+Save as .gitignore
