@@ -1,3 +1,5 @@
+1) Comandos node
+
 npm init
 
 npm install express --save
@@ -5,6 +7,8 @@ npm install express --save
 node index.js
 
 ------
+
+2) Criando gitignore
 
 Create the text file gitignore.txt
 Open it in a text editor and add your rules, then save and close
@@ -21,3 +25,18 @@ Save as .gitignore
 
 # dependencies
 node_modules
+
+----------------------------------------------------------
+
+3) Aplicativos
+
+3.1) Nodemon - Carregamento automático
+
+npm install  nodemon -g
+
+-g => significa que vc quer instalar globalmente
+
+Pra rodar:
+
+nodemon index.js
+
